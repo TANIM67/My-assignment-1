@@ -175,3 +175,16 @@ nav ul a{
 .skills .section-card .card .card-content h3{
     margin-bottom: 20px;
 }
+.summary-resume{
+    margin: 130px auto;
+}
+.heading-section{
+    margin: 113px;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 30px;
+}
+.content-section{
+    display: flex;
+}
+
