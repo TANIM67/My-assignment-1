@@ -258,5 +258,49 @@ nav ul a{
     width: 150px;
     margin: 50px auto;
 }
-
-
+.footer-section{
+    background-color: #FFF8F3;
+    /* border: 1px solid red; */
+}
+.foot-container{
+    max-width: 1140px;
+    width: 72%;
+    display: flex;
+    margin: 113px auto;
+    padding: 130px 0px;
+    /* border: 1px solid red; */
+}
+.foot-container .connect{
+    width: 562px;
+    margin-right: 117px;  
+}
+.foot-container .connect h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.foot-container .connect p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.foot-container .connect .icon img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 0px 0px;
+}
+.foot-container .message{
+    width: 562px;
+}
+.foot-container .message h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.foot-container .message input{
+    width: 461px;
+    height: 64px;
+    border: 0px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
