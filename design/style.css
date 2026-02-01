@@ -10,7 +10,7 @@
 }
 header{
     background-color: #FFF8F3;
-    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -178,13 +178,85 @@ nav ul a{
 .summary-resume{
     margin: 130px auto;
 }
-.heading-section{
+.heading-section h2{
     margin: 113px;
     text-align: center;
-    border: 1px solid red;
-    font-size: 30px;
+    /* border: 1px solid red; */
+    font-size: 35px;
 }
 .content-section{
     display: flex;
+    width: 1093px;
+    margin: 0px auto;
 }
+.education h2{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.education .edu-card h3{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education .edu-card #uni-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+    height: auto;
+}
+.education .edu-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+    width: 484px;
+    height: auto;
+}
+.education .edu-card{
+    width: 511px;
+    margin-right: 71px;
+}
+.education{
+    margin-right: 24px;
+}
+.experience h2{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.experience .exp-card h3{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.experience .exp-card #uni-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+    height: auto;
+}
+.experience .exp-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+    width: 484px;
+    height: auto;
+}
+.experience .exp-card{
+    width: 511px;
+    margin-right: 71px;
+}
+.experience{
+    margin-right: 24px;
+}
+
+.download{
+    width: 150px;
+    margin: 50px auto;
+}
+
 
